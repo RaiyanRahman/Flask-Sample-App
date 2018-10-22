@@ -1,0 +1,239 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-10 10:38-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: tutorial/__init__.py:23
+msgid "Please log in to access this page."
+msgstr ""
+
+#: tutorial/email.py:22
+msgid "[Tutorial] Reset Your Password"
+msgstr ""
+
+#: tutorial/forms.py:11 tutorial/forms.py:18 tutorial/forms.py:51
+msgid "Username"
+msgstr ""
+
+#: tutorial/forms.py:12 tutorial/forms.py:20 tutorial/forms.py:43
+msgid "Password"
+msgstr ""
+
+#: tutorial/forms.py:13
+msgid "Remember Me"
+msgstr ""
+
+#: tutorial/forms.py:14 tutorial/routes.py:74 tutorial/templates/login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: tutorial/forms.py:19 tutorial/forms.py:38
+msgid "Email"
+msgstr ""
+
+#: tutorial/forms.py:22 tutorial/forms.py:45
+msgid "Repeat Password"
+msgstr ""
+
+#: tutorial/forms.py:24 tutorial/routes.py:95
+#: tutorial/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: tutorial/forms.py:29 tutorial/forms.py:64
+msgid "Please use a different username."
+msgstr ""
+
+#: tutorial/forms.py:34
+msgid "Please use a different email address."
+msgstr ""
+
+#: tutorial/forms.py:39 tutorial/forms.py:47
+msgid "Request Password Reset"
+msgstr ""
+
+#: tutorial/forms.py:52
+msgid "About me"
+msgstr ""
+
+#: tutorial/forms.py:54 tutorial/forms.py:69
+msgid "Submit"
+msgstr ""
+
+#: tutorial/forms.py:68
+msgid "Say something"
+msgstr ""
+
+#: tutorial/routes.py:30
+msgid "Your post is now live!"
+msgstr ""
+
+#: tutorial/routes.py:39 tutorial/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: tutorial/routes.py:54 tutorial/templates/base.html:22
+msgid "Explore"
+msgstr ""
+
+#: tutorial/routes.py:67
+msgid "Invalid username or password"
+msgstr ""
+
+#: tutorial/routes.py:93
+msgid "Congratulations, you are now a registered user!"
+msgstr ""
+
+#: tutorial/routes.py:108
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+
+#: tutorial/routes.py:111 tutorial/templates/reset_password.html:5
+msgid "Reset Password"
+msgstr ""
+
+#: tutorial/routes.py:125
+msgid "Your password has been reset."
+msgstr ""
+
+#: tutorial/routes.py:153
+msgid "Your changes have been saved."
+msgstr ""
+
+#: tutorial/routes.py:158 tutorial/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: tutorial/routes.py:167 tutorial/routes.py:183
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: tutorial/routes.py:170
+msgid "You cannot follow yourself!"
+msgstr ""
+
+#: tutorial/routes.py:174
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: tutorial/routes.py:186
+msgid "You cannot unfollow yourself!"
+msgstr ""
+
+#: tutorial/routes.py:190
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: tutorial/templates/404.html:4
+msgid "Not Found"
+msgstr ""
+
+#: tutorial/templates/404.html:5 tutorial/templates/500.html:6
+msgid "Back"
+msgstr ""
+
+#: tutorial/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: tutorial/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: tutorial/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: tutorial/templates/base.html:4
+msgid "Welcome to Tutorial"
+msgstr ""
+
+#: tutorial/templates/base.html:26
+msgid "Login"
+msgstr ""
+
+#: tutorial/templates/base.html:28
+msgid "Profile"
+msgstr ""
+
+#: tutorial/templates/base.html:29
+msgid "Logout"
+msgstr ""
+
+#: tutorial/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: tutorial/templates/index.html:17 tutorial/templates/user.html:31
+msgid "Newer posts"
+msgstr ""
+
+#: tutorial/templates/index.html:22 tutorial/templates/user.html:36
+msgid "Older posts"
+msgstr ""
+
+#: tutorial/templates/login.html:12
+msgid "New User?"
+msgstr ""
+
+#: tutorial/templates/login.html:12
+msgid "Click to Register!"
+msgstr ""
+
+#: tutorial/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: tutorial/templates/login.html:15
+msgid "Click to Reset It"
+msgstr ""
+
+#: tutorial/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: tutorial/templates/user.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: tutorial/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: tutorial/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: tutorial/templates/user.html:15
+msgid "Edit your profile"
+msgstr ""
+
+#: tutorial/templates/user.html:17
+msgid "Follow"
+msgstr ""
+
+#: tutorial/templates/user.html:19
+msgid "Unfollow"
+msgstr ""
+

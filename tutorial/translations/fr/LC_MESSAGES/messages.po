@@ -1,0 +1,310 @@
+# French translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-12 09:56-0400\n"
+"PO-Revision-Date: 2018-09-10 10:46-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: tutorial/__init__.py:22
+msgid "Please log in to access this page."
+msgstr "Veuillez vous connecter pour accéder à cette page."
+
+#: tutorial/translate.py:10
+msgid "Error: the translation service is not configured."
+msgstr "Erreur: le service de traduction n'est pas configuré."
+
+#: tutorial/translate.py:18
+msgid "Error: the translation service failed."
+msgstr "Erreur: le service de traduction a échoué."
+
+#: tutorial/auth/email.py:8
+msgid "[Tutorial] Reset Your Password"
+msgstr "[Tutoriel] Réinitialiser votre mot de passe"
+
+#: tutorial/auth/forms.py:9 tutorial/auth/forms.py:16 tutorial/main/forms.py:10
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: tutorial/auth/forms.py:10 tutorial/auth/forms.py:18
+#: tutorial/auth/forms.py:41
+msgid "Password"
+msgstr "Mot de passe"
+
+#: tutorial/auth/forms.py:11
+msgid "Remember Me"
+msgstr "Souviens-toi de Moi"
+
+#: tutorial/auth/forms.py:12 tutorial/auth/routes.py:28
+#: tutorial/templates/auth/login.html:5
+msgid "Sign In"
+msgstr "Se Connecter"
+
+#: tutorial/auth/forms.py:17 tutorial/auth/forms.py:36
+msgid "Email"
+msgstr "Email"
+
+#: tutorial/auth/forms.py:20 tutorial/auth/forms.py:43
+msgid "Repeat Password"
+msgstr "Répéter le mot de passe"
+
+#: tutorial/auth/forms.py:22 tutorial/auth/routes.py:49
+#: tutorial/templates/auth/register.html:5
+msgid "Register"
+msgstr "Registre"
+
+#: tutorial/auth/forms.py:27 tutorial/main/forms.py:23
+msgid "Please use a different username."
+msgstr "Veuillez utiliser un autre nom d'utilisateur."
+
+#: tutorial/auth/forms.py:32
+msgid "Please use a different email address."
+msgstr "Veuillez utiliser une adresse e-mail différente."
+
+#: tutorial/auth/forms.py:37 tutorial/auth/forms.py:45
+msgid "Request Password Reset"
+msgstr "Demande de réinitialisation du mot de passe"
+
+#: tutorial/auth/routes.py:21
+msgid "Invalid username or password"
+msgstr "Nom d'utilisateur ou mot de passe invalide"
+
+#: tutorial/auth/routes.py:47
+msgid "Congratulations, you are now a registered user!"
+msgstr "Félicitations, vous êtes maintenant un utilisateur enregistré!"
+
+#: tutorial/auth/routes.py:63
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+"vérifiez votre email pour les instructions pour réinitialiser votre mot "
+"de passe"
+
+#: tutorial/auth/routes.py:66 tutorial/templates/auth/reset_password.html:5
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: tutorial/auth/routes.py:80
+msgid "Your password has been reset."
+msgstr "Votre mot de passe a été réinitialisé."
+
+#: tutorial/main/forms.py:11
+msgid "About me"
+msgstr "À propos de moi"
+
+#: tutorial/main/forms.py:13 tutorial/main/forms.py:28
+#: tutorial/main/forms.py:45
+msgid "Submit"
+msgstr "Soumettre"
+
+#: tutorial/main/forms.py:27
+msgid "Say something"
+msgstr "Dis quelquechose"
+
+#: tutorial/main/forms.py:32 tutorial/main/routes.py:150
+msgid "Search"
+msgstr "Chercher"
+
+#: tutorial/main/forms.py:43
+msgid "Message"
+msgstr "Message"
+
+#: tutorial/main/routes.py:37
+msgid "Your post is now live!"
+msgstr "Votre message est maintenant en ligne!"
+
+#: tutorial/main/routes.py:46 tutorial/templates/base.html:21
+msgid "Home"
+msgstr "Accueil"
+
+#: tutorial/main/routes.py:61 tutorial/templates/base.html:22
+msgid "Explore"
+msgstr "Explorer"
+
+#: tutorial/main/routes.py:89
+msgid "Your changes have been saved."
+msgstr "Vos changements ont été enregistrés."
+
+#: tutorial/main/routes.py:94 tutorial/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Editer le profil"
+
+#: tutorial/main/routes.py:103 tutorial/main/routes.py:119
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Utilisateur %(username)s introuvable."
+
+#: tutorial/main/routes.py:106
+msgid "You cannot follow yourself!"
+msgstr "Vous ne pouvez pas vous suivre!"
+
+#: tutorial/main/routes.py:110
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Vous suivez %(username)s!"
+
+#: tutorial/main/routes.py:122
+msgid "You cannot unfollow yourself!"
+msgstr "Vous ne pouvez pas vous en passer!"
+
+#: tutorial/main/routes.py:126
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Vous ne suivez pas %(username)s."
+
+#: tutorial/main/routes.py:171
+msgid "Your message has been sent."
+msgstr "Votre message a été envoyé."
+
+#: tutorial/main/routes.py:173
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: tutorial/templates/_post.html:16
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s dit %(when)s"
+
+#: tutorial/templates/_post.html:27
+msgid "Translate"
+msgstr "Traduire"
+
+#: tutorial/templates/base.html:4
+msgid "Welcome to Tutorial"
+msgstr "Bienvenue dans le tutoriel"
+
+#: tutorial/templates/base.html:33
+msgid "Login"
+msgstr "S'identifier"
+
+#: tutorial/templates/base.html:35 tutorial/templates/messages.html:4
+msgid "Messages"
+msgstr "Messages"
+
+#: tutorial/templates/base.html:36
+msgid "Profile"
+msgstr "Profil"
+
+#: tutorial/templates/base.html:37
+msgid "Logout"
+msgstr "Connectez - Out"
+
+#: tutorial/templates/base.html:74
+msgid "Error: Could not contact server."
+msgstr "Erreur: impossible de contacter le serveur."
+
+#: tutorial/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Salut, %(username)s!"
+
+#: tutorial/templates/index.html:17 tutorial/templates/user.html:34
+msgid "Newer posts"
+msgstr "Messages plus récents"
+
+#: tutorial/templates/index.html:22 tutorial/templates/user.html:39
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: tutorial/templates/messages.html:12
+msgid "Newer messages"
+msgstr "Messages plus récents"
+
+#: tutorial/templates/messages.html:17
+msgid "Older messages"
+msgstr "Messages plus anciens"
+
+#: tutorial/templates/search.html:3
+msgid "Search Results"
+msgstr "Résultats de la Recherche"
+
+#: tutorial/templates/search.html:11
+msgid "Previous results"
+msgstr "Résultats précédents"
+
+#: tutorial/templates/search.html:16
+msgid "Next results"
+msgstr "Résultats suivants"
+
+#: tutorial/templates/send_message.html:5
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr "Envoyer un message à %(recipient)s"
+
+#: tutorial/templates/user.html:8
+msgid "User"
+msgstr "Utilisateur"
+
+#: tutorial/templates/user.html:11 tutorial/templates/user_popup.html:9
+msgid "Last seen on"
+msgstr "Dernière vue sur"
+
+#: tutorial/templates/user.html:13 tutorial/templates/user_popup.html:11
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d suiveurs"
+
+#: tutorial/templates/user.html:13 tutorial/templates/user_popup.html:11
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d suivant"
+
+#: tutorial/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Modifier votre profil"
+
+#: tutorial/templates/user.html:17 tutorial/templates/user_popup.html:14
+msgid "Follow"
+msgstr "Suivre"
+
+#: tutorial/templates/user.html:19 tutorial/templates/user_popup.html:16
+msgid "Unfollow"
+msgstr "Ne pas suivre"
+
+#: tutorial/templates/user.html:22
+msgid "Send private message"
+msgstr "Envoyer un message privé"
+
+#: tutorial/templates/auth/login.html:12
+msgid "New User?"
+msgstr "Nouvel utilisateur?"
+
+#: tutorial/templates/auth/login.html:12
+msgid "Click to Register!"
+msgstr "Cliquez pour vous inscrire!"
+
+#: tutorial/templates/auth/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Mot de passe oublié?"
+
+#: tutorial/templates/auth/login.html:15
+msgid "Click to Reset It"
+msgstr "Cliquez pour le réinitialiser"
+
+#: tutorial/templates/errors/404.html:4
+msgid "Not Found"
+msgstr "Pas Trouvé"
+
+#: tutorial/templates/errors/404.html:5 tutorial/templates/errors/500.html:6
+msgid "Back"
+msgstr "Arrière"
+
+#: tutorial/templates/errors/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Une erreur imprévue s'est produite"
+
+#: tutorial/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "L'administrateur a été averti. Désolé pour le dérangement!"
+
